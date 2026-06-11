@@ -70,30 +70,36 @@ where:
 
 ## Project Structure
 
-
 ---
+
 ## Features
 
 ### Question 1
+
 - Implements Euler's method for solving the SIR system.
 - Generates simulation results as a Pandas DataFrame.
 - Compares numerical results with known analytical solutions.
 
 ### Question 2
+
 - Investigates numerical error.
 - Plots the difference between Euler approximations and exact solutions.
 - Studies the effect of timestep size.
 
 ### Question 3
+
 - Explores model behaviour under varying transmission and recovery rates.
 - Visualizes epidemic trajectories.
 
 ### Question 4
+
 - Implements an SIRV model with vaccination.
 - Solves the system using SciPy's `odeint`.
 - Compares Euler and ODE solver solutions.
 - Examines vaccination strategies and their effect on infection levels.
+
 ---
+
 ## Technologies Used
 
 - Python
