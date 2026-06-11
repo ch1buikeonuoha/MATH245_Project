@@ -20,51 +20,51 @@ The project focuses on:
 
 ### SIR Model
 
-The classical SIR model is defined by
+The classical SIR model is defined by:
 
-\[
+$$
 \frac{dx}{dt} = -\beta xy
-\]
+$$
 
-\[
+$$
 \frac{dy}{dt} = \beta xy - \gamma y
-\]
+$$
 
 where:
 
-- \(x\) = fraction of susceptible individuals
-- \(y\) = fraction of infectious individuals
-- \(\beta\) = infection transmission rate
-- \(\gamma\) = recovery/removal rate
+- $x$ = fraction of susceptible individuals
+- $y$ = fraction of infectious individuals
+- $\beta$ = infection transmission rate
+- $\gamma$ = recovery/removal rate
 
 The removed compartment is given by:
 
-\[
+$$
 R = 1 - x - y
-\]
+$$
 
 ---
 
 ### SIRV Model
 
-The vaccination model extends SIR by adding a vaccinated compartment \(v\):
+The vaccination model extends SIR by adding a vaccinated compartment $v$:
 
-\[
+$$
 \frac{dx}{dt} = -\beta xy - \mu x
-\]
+$$
 
-\[
+$$
 \frac{dy}{dt} = \beta xy - \gamma y
-\]
+$$
 
-\[
+$$
 \frac{dv}{dt} = \mu x
-\]
+$$
 
 where:
 
-- \(v\) = vaccinated population fraction
-- \(\mu\) = vaccination rate
+- $v$ = vaccinated population fraction
+- $\mu$ = vaccination rate
 
 ---
 
